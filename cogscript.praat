@@ -1,24 +1,24 @@
-#########################################################################################
-# This script automatically extracts COG measurements and related info from a TextGrid.   
-# 
-# INPUT 
-# Script expects a sound file in .wav format and a TextGrid with two interval
-# tiers: 1 - phone, 2 - word. Files must have the same name, but different file name
-# extensions: .wav and .TextGrid, respectively. Script expects labels in the phone tier 
-# to be either "sl" (for lexical s) or "sn" (for nonstandard s).
-#
-# OUTPUT
-# .csv file containing:	var, word, begin, dur, cog1, cog2, cog3 and others. Some values
-# will need to be added post-hoc.
-# Also, some chatter in the info window.
-#
-# To use: Change the directoryName$ and fileName$ variables below to 
-# their appropriate values.
-#					                                                                                                 
-# Written 2015 by Brian P. Hodge and Lars Hinrichs (texasenglish@utexas.edu).
-# Use at your own risk.
-#
-#########################################################################################
+################################################################################################
+## This script automatically extracts COG measurements and related info from a TextGrid.   
+## 
+## INPUT 
+## Script expects a sound file in .wav format and a TextGrid with two interval
+## tiers: 1 - phone, 2 - word. Files must have the same name, but different file name
+## extensions: .wav and .TextGrid, respectively. Script expects labels in the phone tier 
+## to be either "sl" (for lexical s) or "sn" (for nonstandard s).
+##
+## OUTPUT
+## .csv file containing:	var, word, begin, dur, cog1, cog2, cog3 and others. Some values
+## will need to be added post-hoc.
+## Also, some chatter in the info window.
+##
+## To use: Change the directoryName$ and fileName$ variables below to 
+## their appropriate values.
+##					                                                                                                 
+## Written 2015 by Lars Hinrichs (texasenglish@utexas.edu), based on work by Brian P. Hodge.
+## Use at your own risk.
+##
+################################################################################################
 
 
 clearinfo
